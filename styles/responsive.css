@@ -1,0 +1,19 @@
+/* Responsive style here */
+
+@media screen and (max-width:576px) {
+    .header-section,.items-container{
+        flex-direction: column;
+    }
+    .nav-container{
+        width: 100%;
+
+    }
+
+    .items-container{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+}
